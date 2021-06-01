@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Graph Theorem Visualization</title>
+
+<style>
+body {
+  font-family: "Consolas"
+}
+</style>
+
+  </head>
+  <body>
+    <h1>Teoria grafów - wizualizacja</h1>
+
+    <canvas id="myCanvas" width="900" height="500" style="border:1px solid #EEEEEE;"></canvas>
+    <button type="button" name="button" onclick="addNode()">Add node</button>
+    <button type="button" name="reset" onclick=reset()>Reset nodes</button>
+    <button type="button" name="zoomout" onclick=zoomout()>-</button>
+    <button type="button" name="zoomin" onclick=zoomin()>+</button>
+    <section>
+      <h3>Aby dodać krawędzie przytrzymaj <code>CTRL</code> , następnie z przytrzymanym lewym przyciskiem myszy z wierzchołka 1, przeciągnij kursor do wierzchołka 2.</h3>
+    </section>
+
+    <script type="text/javascript" src="index.js">
+
+      </script>
+  </body>
+</html>
